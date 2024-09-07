@@ -8,21 +8,15 @@ This is the Connected Bradford Blood Pressure GitHub page where you can find a s
 
 Contains the scripts and documentation for Blood Pressure
 
-It contains approximately 200,000 records. The dataset has been fully anonymised, but can link to other FDM's.
+It contains approximately 950,000 records. The dataset has been fully anonymised, but can link to other FDM's.
 
 There is one FDM for Blood Pressure . 
 
-CB_FDM_BloodPressure- build date 2023-11-15 - data up to 2021-07-13
-
+CB_FDM_BloodPressure - build date 2024-09-06
 
 # Blood Pressure
-The Blood Pressure FDM is made up of 2 source tables (summarised below and data dictionaries linked) from routinely collected data for 13,  individuals and their routinely collected clinical data. 
-
-The dates relevant for the latest build are: 1904-01-15	to 2023-08-22
-
-
-
-
+The Blood Pressure FDM is made up of 2 source tables (summarised below and data dictionaries linked) from routinely collected data for 9408 individuals and their routinely collected clinical data. 
+The dates relevant for the latest build are: 1998-06-12 to 	2024-06-28
 
 The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
 
@@ -35,8 +29,9 @@ visit.
 
 ### The source data tables are: 
 
-tbl_NEC_Deaths_QWO_20230817_RELEASE
+tbl_bloodpressure_data - this is the actual data 
 
+cb_bloodpressure_patients - this is the full patient list as provided by the supplier.
 
 
 For more information please go to the docs folder. 
